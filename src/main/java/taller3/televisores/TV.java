@@ -10,8 +10,6 @@ public class TV {
 
     private Control control;
 
-
-
     public TV(Marca marca, boolean estado){
         this.marca = marca;
         this.estado = estado;
@@ -60,6 +58,10 @@ public class TV {
 
     public int getVolumen() {
         return volumen;
+    }
+
+    public Control getControl() {
+        return control;
     }
 
     public void setControl(Control control){

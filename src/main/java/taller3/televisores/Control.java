@@ -38,5 +38,6 @@ public class Control {
 
     public void setTv(TV tv) {
         this.tv = tv;
+        tv.setControl(this);
     }
 }
