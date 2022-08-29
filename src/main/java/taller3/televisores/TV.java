@@ -17,9 +17,9 @@ public class TV {
         this.estado = estado;
     }
     public TV(){
-        this.canal = 1;
-        this.volumen = 1;
-        this.precio = 500;
+        canal = 1;
+        volumen = 1;
+        precio = 500;
         ++numTV;
 
     }
@@ -80,10 +80,16 @@ public class TV {
     }
 
     public void turnOn(){
-        estado = true;
+        if(estado == false){
+            estado = true;
+        }
+
     }
     public void turnOff(){
-        estado = false;
+        if(estado == true){
+            estado = false;
+        }
+
     }
 
     public void canalUp(){
