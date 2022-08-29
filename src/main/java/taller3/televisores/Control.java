@@ -7,6 +7,9 @@ public class Control {
     public void turnOn(){
         tv.turnOn();
     }
+    public void turnOff(){
+        tv.turnOff();
+    }
     public void turnDown(){
         tv.turnOff();
     }

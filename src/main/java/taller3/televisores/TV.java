@@ -80,13 +80,13 @@ public class TV {
     }
 
     public void turnOn(){
-        if(estado == false){
+        if(!estado){
             estado = true;
         }
 
     }
     public void turnOff(){
-        if(estado == true){
+        if(estado){
             estado = false;
         }
 
