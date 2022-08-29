@@ -1,7 +1,7 @@
 package taller3.televisores;
 
 public class TV {
-    private Marca marca;
+	private Marca marca;
     private int canal;
     private int precio;
     private boolean estado;
@@ -115,4 +115,5 @@ public class TV {
             --volumen;
         }
     }
+
 }
