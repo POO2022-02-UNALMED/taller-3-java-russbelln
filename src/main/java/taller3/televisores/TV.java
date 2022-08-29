@@ -19,6 +19,7 @@ public class TV {
         volumen = 1;
         precio = 500;
         ++numTV;
+        estado = true;
 
     }
 
